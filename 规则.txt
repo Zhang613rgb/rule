@@ -1,0 +1,75 @@
+rule-providers:
+  GPT: #GPT
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Zhang613rgb/rule/main/GPT.txt"
+    path: ./rule-GPT.yaml
+    interval: 86400
+  DIRECT: #全球直连
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Zhang613rgb/rule/main/DIRECT.txt"
+    path: ./rule-DIRECT.yaml
+    interval: 86400
+  DIRECT-no: #全球直连,no-resolve
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Zhang613rgb/rule/main/DIRECT-no.txt"
+    path: ./rule-DIRECT-no.yaml
+    interval: 86400
+  REJECT: #全球拦截
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Zhang613rgb/rule/main/REJECT.txt"
+    path: ./rule-REJECT.yaml
+    interval: 86400
+  PurifyApp: #应用净化
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Zhang613rgb/rule/main/PurifyApp.txt"
+    path: ./rule-PurifyApp.yaml
+    interval: 86400
+  Microsoft: #微软服务
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Zhang613rgb/rule/main/Microsoft.txt"
+    path: ./rule-Microsoft.yaml
+    interval: 86400
+  apple: #苹果服务
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Zhang613rgb/rule/main/apple.txt"
+    path: ./rule-apple.yaml
+    interval: 86400
+  FMedia: #国外媒体
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Zhang613rgb/rule/main/FMedia.txt"
+    path: ./rule-FMedia.yaml
+    interval: 86400
+  Telegram: #电报信息
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Zhang613rgb/rule/main/Telegram.txt"
+    path: ./rule-Telegram.yaml
+    interval: 86400
+  Selection: #节点选择
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Zhang613rgb/rule/main/Selection.txt"
+    path: ./rule-Selection.yaml
+    interval: 86400
+rules:
+  - DOMAIN-KEYWORD,mushroomtrack.com,🐟 漏网之鱼
+  - DOMAIN-KEYWORD,jable,🚀 节点选择
+  - RULE-SET,GPT,🚀 GPT
+  - RULE-SET,DIRECT,🎯 全球直连
+  - RULE-SET,DIRECT-no,🎯 全球直连,no-resolve
+  - RULE-SET,REJECT,🛑 全球拦截
+  - RULE-SET,PurifyApp,🍃 应用净化
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务
+  - RULE-SET,apple,🍎 苹果服务
+  - RULE-SET,FMedia,🌍 国外媒体
+  - RULE-SET,Telegram,📲 电报信息
+  - RULE-SET,Selection,🚀 节点选择
+  - MATCH,🐟 漏网之鱼
