@@ -1,5 +1,52 @@
 payload:
 #下方为全球直连域名
+# 直连列表
+# MyList
+# CN域名直连(中国|公司|网络)
+# 中国国内常见域名关键词直连
+# 360
+# 4399
+# 58
+# Alibaba
+# Baidu
+# Bilibili
+# Blizzard
+# ByteDance
+# CCTV
+# ChinaNet
+# DiDi
+# Douyu 斗鱼
+# Epic
+# HuaWei
+# Iflytek 科大讯飞
+# Iqiyi
+# JD
+# Kingsoft
+# Kuaishou 快手
+# Meitu
+# LeTV 乐视
+# MGTV 芒果TV
+# MI
+# NetEase
+# PPTV、PPLive
+# PDD 拼多多
+# Sina
+# Sohu Sogo
+# Sony
+# SteamCN
+# Tencent
+# Vip 唯品会
+# Ximalaya 喜马拉雅
+# Xunlei 迅雷
+# YYeTs 人人影视
+# Private Tracker
+# TeamViewer
+# Public Direct CDN 公共直连
+#DOMAIN-SUFFIX,ajax.aspnetcdn.com
+#DOMAIN-SUFFIX,ajax.cloudflare.com
+#DOMAIN-SUFFIX,cdnjs.cloudflare.com
+#DOMAIN-SUFFIX,code.jquery.com
+# AccelerateDirectSites
   - DOMAIN-SUFFIX,tonkiang.us
   - DOMAIN-SUFFIX,acl4.ssr
   - DOMAIN-SUFFIX,ip6-localhost
