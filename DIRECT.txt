@@ -47,6 +47,7 @@ payload:
 #DOMAIN-SUFFIX,cdnjs.cloudflare.com
 #DOMAIN-SUFFIX,code.jquery.com
 # AccelerateDirectSites
+  - DOMAIN-KEYWORD,chat.rawchat.top
   - DOMAIN-SUFFIX,tonkiang.us
   - DOMAIN-SUFFIX,acl4.ssr
   - DOMAIN-SUFFIX,ip6-localhost
